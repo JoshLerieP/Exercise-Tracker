@@ -19,16 +19,35 @@ main {
 }
 
 .exercise {
-    margin: 10px 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.count {
+    display: block;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
 button {
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
 }
 
-.count {
-    font-size: 2.5em;
+.streak {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.streak .days {
+    display: block;
+    font-size: 4em;
+    margin-top: 10px;
 }
